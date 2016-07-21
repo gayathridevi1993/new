@@ -1,0 +1,84 @@
+
+#main{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+  text-align: center;
+	display: inline-block;
+}
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: pink;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#welcome{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+#footer
+{
+  width: 100%;
+  background: #336699;
+  float: left;
+  margin: 0 0 .5% 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #202020
+  }
+
+  address {
+  font-size : 16px;
+  text-align : center;
+  color: #efefef;
+  padding: 1% 0;
+  text-shadow: 1px 1px 0px #202020
+  }
+#item  li{
+    display:inline;
+  }
+  #item ul li a
+  {
+    padding: 20px;
+    background: pink;
+    color: white;
+
+  }
+	form li{
+		list style:none;
+		margin-bottom: 20px;
+	}
+	form ul{
+		padding-left: 0;
+	}
+	lable
+	{
+		display:block;
+		cursor:pointer;
+		color:#292929;
+		font-family: sans-serif;
+		padding-bottom: 8px
+	}
+	textarea
+	{
+		width: 200px;
+		height:200px
+	}

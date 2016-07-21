@@ -1,0 +1,18 @@
+.di1
+{
+  background-color:  blue;
+width:20%;
+float: left;
+}
+.di2
+{
+  clear:both;
+  background-color:  yellow;
+  width: 60%;
+  float: right;
+}
+.di3
+{
+  background-color:  green;
+  width: 20%;
+}

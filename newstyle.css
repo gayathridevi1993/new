@@ -1,0 +1,92 @@
+.container_12
+{
+  background:red;
+  margin: auto;
+}
+
+nav li: {
+  display:inline;margin_left:0;margin-right:30px;
+font -family:sans-serif;
+margin-left:0;
+margin-right:20px;
+margin-top:30px
+margin-bottom:30px;
+font-size: 15px;
+color:black:
+}
+new li a{ text-decoration: :none;}
+.head1 a:hover{color:black;
+}
+header{
+  font-size: 40px;
+  poisition:fixed;
+  font-family:sans-serif;
+}
+
+aside a
+{
+  background: green;
+}
+primary
+{
+  background:#e3e3e3;
+
+}
+
+.main{margin:30px0;}
+section{
+  box-sizing: border-box;
+  padding:10px
+  width:200px;
+}
+#main1{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+  text-align: center;
+	display: inline;
+}
+.align{
+  margin-top: 20px;
+
+}
+#item  li{
+    display:inline;
+    margin-left: 0px;
+
+
+  }
+  #item ul{
+    padding-left: 0px;
+
+  }
+
+  #item ul li a
+  {
+    padding: 20px;
+    background: pink;
+    color: white;
+
+
+  }
+  #nav{
+  	width: 60%;
+  	display: inline-block;
+  	text-align: right;
+  	float: right;
+  }
+  	#nav ul{}
+  		#nav ul li{
+  			display: inline-block;
+  			height: 62px;
+  		}
+  			#nav ul li a{
+  				padding: 20px;
+  				background: pink;
+  				color: white;
+  			}
+  			#nav ul li a:hover{
+  				background-color: #ffb424;
+  				box-shadow: 0px 1px 1px #666;
+  			}
+  			#nav ul li a:active{ background-color: #ff8f00; }

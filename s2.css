@@ -1,0 +1,71 @@
+.container_12
+{
+
+}
+nav{background:;
+}
+nav li
+{
+display:inline;
+margin-left:0;
+margin-right:0;
+position:relative;
+margin-top: 10px;
+}
+li a{
+  text-decoration: :none;
+  padding:20px;
+  font-size:15;
+  font-family:sans-serif;
+  padding-left:7;
+  text-decoration: none;
+}
+aside
+{
+background:;
+}
+.primary
+{
+background:#e3e3e3;
+}
+header
+{
+  margin-top:-1;
+  overflow:hidden;
+background:;
+position:fixed;
+font-family: "monotype corsiva";
+font-size: 50;
+
+width:71.25%;
+}
+
+.footer {
+width: 100%;
+float: left;
+
+}
+
+
+.use
+{
+  position: absolute;
+  bottom:30px;
+  left: :50px;
+  font-family:fantasy;
+  colour:black;
+  font-size: 10px;
+  letter-spacing:2px;
+
+
+}
+.grid_4{
+  margin-left:0px;
+}
+.title
+{
+  text-align: justify;
+}
+.main{
+  h
+}
