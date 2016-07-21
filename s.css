@@ -1,0 +1,44 @@
+.container_12
+{
+background:red;
+}
+nav{background:green;
+}
+nav li
+{
+display:inline;
+margin-left:0;
+margin-right:3;
+}
+li a{
+  text-decoration: :none;
+  padding:20px;
+  font-size:15;
+  font-family:sans-serif;
+  padding-left:0;
+}
+aside
+{
+background:green;
+}
+.primary
+{
+background:#e3e3e3;
+}
+header
+{
+  margin-top:-1;
+  overflow:hidden;
+background:green;
+position:relative;
+}
+.main
+{
+margin:30px 10px;
+}
+.footer {
+width: 100%;
+background: green;
+float: left;
+
+}
