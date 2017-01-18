@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<style type="text/css">
+
+			body {
+				margin:0;
+				padding:0;
+				font-family: Sans-Serif;
+				line-height: 1.5em;
+			}
+
+			#header {
+				background-color: lightblue;
+				height: 50px;
+				margin-left: 80px;
+				margin-right: 80px;
+			}
+
+			#header h2 {
+				margin: 0;
+				padding-top: 15px;
+				align-content: center;
+				text-align: center;
+
+			}
+      #wrapper{
+				margin-left: 50px;
+			}
+			#button{
+				text-align: center;
+			}
+#f1{
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	background-color: #ccc;
+}
+
+		</style>
+	</head>
+
+	<body>
+
+		<header id="header">
+			<div class="innertube">
+				<h2>Application Dashboard</h2>
+			</div>
+		</header><br><br>
+    <!--Input of File-->
+		<form action="" id="f1"  width="555" height="200">
+		<div id="border">
+			<center>
+			<h3> Step1:</h3>
+			<input type="radio" name="input" value="excel" onclick = "document.location.href='sample.xlsx'"> Excel
+      <input type="radio" name="input" value="utility"  onclick = "document.location.href='Draggable Link.html'"> Utility
+      <input type="radio" name="input" value="pattern"> Pattern<br><br>
+			FileInput:
+			<input type="file" name="datafile" size="40" aria-required="true" ><br><br>
+
+
+		<button id="myButton" > <a href="fetchdata.html">Next</a></button></center>
+
+		<!-- <script type="text/javascript">
+
+    document.getElementById("myButton").onclick = function () {
+        location.href = "file:///D:/gayathri/fetchdata.html";
+    };
+</script> -->
+		</div>
+	</form>
+
+
+	</body>
+</html>

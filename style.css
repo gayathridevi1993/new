@@ -1,84 +1,29 @@
-
-#main{
-	width: 35%;
-	margin-top: 5px;
-	font-family: georgia;
-  text-align: center;
-	display: inline-block;
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background: #333;
 }
 
-#nav{
-	width: 60%;
-	display: inline-block;
-	text-align: right;
-	float: right;
+#page-wrapper {
+  width: 600px;
+  background: #FFF;
+  padding: 1em;
+  margin: 1em auto;
+  min-height: 300px;
+  border-top: 5px solid #69c773;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
 }
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 62px;
-		}
-			#nav ul li a{
-				padding: 20px;
-				background: pink;
-				color: white;
-			}
-			#nav ul li a:hover{
-				background-color: #ffb424;
-				box-shadow: 0px 1px 1px #666;
-			}
-			#nav ul li a:active{ background-color: #ff8f00; }
 
-#welcome{
-	margin: 30px 0;
-	background: white;
-	padding: 20px;
-	clear: both;
+h1 {
+	margin-top: 0;
 }
-#footer
-{
+
+img {
+  max-width: 100%;
+}
+
+#fileDisplayArea {
+  margin-top: 2em;
   width: 100%;
-  background: #336699;
-  float: left;
-  margin: 0 0 .5% 0;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px #202020
-  }
-
-  address {
-  font-size : 16px;
-  text-align : center;
-  color: #efefef;
-  padding: 1% 0;
-  text-shadow: 1px 1px 0px #202020
-  }
-#item  li{
-    display:inline;
-  }
-  #item ul li a
-  {
-    padding: 20px;
-    background: pink;
-    color: white;
-
-  }
-	form li{
-		list style:none;
-		margin-bottom: 20px;
-	}
-	form ul{
-		padding-left: 0;
-	}
-	lable
-	{
-		display:block;
-		cursor:pointer;
-		color:#292929;
-		font-family: sans-serif;
-		padding-bottom: 8px
-	}
-	textarea
-	{
-		width: 200px;
-		height:200px
-	}
+  overflow-x: auto;
+}
